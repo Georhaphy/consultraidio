@@ -51,7 +51,7 @@ if q5 == "ไม่แพ้" :
 else :
     e = int(1)  
     
-q6 = st.radio("ผู้ป่วยกินยาChlorpheniramineหรือไม่" , ["ไม่กิน" , "กิน"],  horizontal = True)  
+q6 = st.radio("ผู้ป่วยกินยาแก้แพ้หรือไม่" , ["ไม่กิน" , "กิน"],  horizontal = True)  
 if q6 == "ไม่กิน" :
     f = int(0)
 else :
