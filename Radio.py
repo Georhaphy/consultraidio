@@ -24,9 +24,9 @@ st.markdown(background_image, unsafe_allow_html=True)
 
 
 
-st.title("Sakhon Allergy Prediction tool(S.A.P.)")
+#st.title("Sakhon Allergy Prediction tool(S.A.P.)")
 
-
+st.markdown("<h1 style='text-align: center; color: black ; font-size: 25px ;'>Sakhon Allergy Prediction tool(S.A.P.)</h1>", unsafe_allow_html=True)
 
 
 filename = "lastfinalmodel.pickle"
