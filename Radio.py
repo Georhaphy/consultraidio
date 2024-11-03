@@ -9,6 +9,23 @@ import streamlit as st
 import pickle
 
 
+background_image = """
+<style>
+[data-testid="stAppViewContainer"] > .main {
+    background-image: url("https://img5.pic.in.th/file/secure-sv1/smsk-1e26f337bb6ec6813.jpg");
+    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+    background-position: center;
+    background-repeat: no-repeat;
+}
+</style>
+"""
+
+st.markdown(background_image, unsafe_allow_html=True)
+
+
+
+st.title("Sakhon Allergy Prediction tool(S.A.P)")
+
 
 
 
@@ -17,7 +34,7 @@ loaded_model = pickle.load(open(filename, "rb"))
 
 s=[]
 
-st.title(r"$\textsf{\small ประเมินความเสี่ยงต่อการแพ้สารทึบรังสี }$")
+#st.title(r"$\textsf{\small ประเมินความเสี่ยงต่อการแพ้สารทึบรังสี }$")
 #st.title('ประเมินความเสี่ยงต่อการแพ้สารทึบรังสี')
 
 
