@@ -24,7 +24,7 @@ st.markdown(background_image, unsafe_allow_html=True)
 
 
 
-st.title("Sakhon Allergy Prediction tool(S.A.P)")
+st.title("Sakhon Allergy Prediction tool(S.A.P.)")
 
 
 
