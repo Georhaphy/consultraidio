@@ -9,6 +9,10 @@ import streamlit as st
 import pickle
 
 
+filename = "lastfinalmodel.pickle"
+loaded_model = pickle.load(open(filename, "rb"))
+
+
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
@@ -28,8 +32,7 @@ st.markdown(background_image, unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: black ; font-size: 25px ;'>Sakhon Allergy Prediction tool(S.A.P.)</h1>", unsafe_allow_html=True)
 
 
-filename = "lastfinalmodel.pickle"
-loaded_model = pickle.load(open(filename, "rb"))
+
 
 s=[]
 
