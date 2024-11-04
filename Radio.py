@@ -22,8 +22,6 @@ background_image = """
 
 st.markdown(background_image, unsafe_allow_html=True)
 
-#st.title(r"$\textsf{\small ประเมินความเสี่ยงต่อการแพ้สารทึบรังสี }$")
-#st.title('ประเมินความเสี่ยงต่อการแพ้สารทึบรังสี')
 
 st.markdown("<h1 style='text-align: center; color: black ; font-size: 25px ;'>Sakhon Allergy Prediction tool(S.A.P.)</h1>", unsafe_allow_html=True)
 
@@ -33,6 +31,8 @@ loaded_model = pickle.load(open(filename, "rb"))
 
 s=[]
 
+#st.title(r"$\textsf{\small ประเมินความเสี่ยงต่อการแพ้สารทึบรังสี }$")
+#st.title('ประเมินความเสี่ยงต่อการแพ้สารทึบรังสี')
 
 
 q1 = st.radio("ผู้ป่วยแพ้Iopamiroหรือไม่", ["ไม่แพ้" , "แพ้"],  horizontal = True)
@@ -108,8 +108,6 @@ if st.button('ประเมินความเสี่ยง'):
 
             
     
-
-
 
 
 
